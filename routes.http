@@ -1,0 +1,24 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Videos Eloi PRado",
+    "description": "Esse é video Eloi PRAdo",
+    "duration": 100
+}
+
+###
+GET http://localhost:3333/videos?search=
+
+###
+PUT http://localhost:3333/videos/8d1d646d-6f1f-4c94-86c8-72c6641596fa
+Content-Type: application/json
+
+{
+    "title": "Videos 02",
+    "description": "Esse é video 02",
+    "duration": 180
+}
+
+###
+DELETE http://localhost:3333/videos/74bdf7d9-1e5f-4a84-8940-95d7214aeb57
